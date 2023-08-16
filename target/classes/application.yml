@@ -1,0 +1,8 @@
+keycloak:
+  realm: embeddings
+  auth-server-url: http://localhost:8081/auth
+  resource: springboot-keycloak
+  ssl-required: external
+  public-client: true
+  bearer-only: false
+  principal-attribute: preferred_username
